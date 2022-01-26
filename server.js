@@ -18,9 +18,10 @@ app.get('/users', (req, res) => {
   res.send(users)
 })
 
+//UPDATED 1/26
 //Create a POST endpoint to add a user to an array called "Users"
 app.post('/users', (req, res) => {
-  users.push = new User()
+  users.push = new User("4", "BooBoo", "TwoBears@OneCave.com")
   res.send(users)
 )}
 
